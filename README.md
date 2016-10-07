@@ -15,7 +15,7 @@ Orchid paludarium and climate control design
 - [50cm x 50cm bio sponge](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=131937741285) ($3.85 ebay)
 - [2lbs LECA clay](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=121695905138) ($9.45)
 - [6" Cholla cactus wood](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=272346928499) ($4.00)
-- [2 x 50cm LED bars](http://www.ebay.com/itm/12V-36-SMD-5630-50CM-0-5M-Waterproof-LED-Hard-Strip-Bar-Light-Tube-w-Cover-Cap/232100208769?_trksid=p2047675.c100623.m-1&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D38530%26meid%3Db9e91e8576b8490f9004b4baea860929%26pid%3D100623%26rk%3D1%26rkt%3D6%26sd%3D231968301261)
+- [2 x 50cm LED bars](http://www.ebay.com/itm/12V-36-SMD-5630-50CM-0-5M-Waterproof-LED-Hard-Strip-Bar-Light-Tube-w-Cover-Cap/232100208769?_trksid=p2047675.c100623.m-1&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D38530%26meid%3Db9e91e8576b8490f9004b4baea860929%26pid%3D100623%26rk%3D1%26rkt%3D6%26sd%3D231968301261) ($4.50 ebay)
 - substrate
 - plants
 - moss
