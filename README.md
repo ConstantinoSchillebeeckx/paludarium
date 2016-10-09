@@ -4,7 +4,7 @@ Orchid paludarium and climate control design
 
 ## BOM
 
-### Tank build
+### Tank
 - 10g aquarium ($5 craigslist)
 - 4' x 2' light ceiling panel - [egg crate](https://www.google.com/shopping/product/3379815341616733842?lsf=seller:8740,store:5944499324702331793,lsfqd:0&prds=oid:14257488563428501297&q=lamp+shade&hl=en&ei=eTnxV-OXMIKFmwGgpYAQ&lsft=cm_mmc:Shopping-_-LIAs-_-D23-_-202025149&lsft=gclid:CNbavtzIvM8CFQERaQodmhcDuA) ($15 home depot)
 - electric waterfall ($1 garage sale)
@@ -17,6 +17,7 @@ Orchid paludarium and climate control design
 - [2lbs LECA clay](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=121695905138) ($9.45)
 - [6" Cholla cactus wood](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=272346928499) ($4.00)
 - [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
+- [replacement pump for waterfall]() ($7.99 newegg)
 
 ### Flora
 - plants
