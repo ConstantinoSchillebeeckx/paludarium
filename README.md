@@ -16,7 +16,6 @@ Orchid paludarium and climate control design
 - [50cm x 50cm bio sponge](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=131937741285) ($3.85 ebay)
 - [2lbs LECA clay](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=121695905138) ($9.45)
 - [6" Cholla cactus wood](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=272346928499) ($4.00)
-- [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
 - [replacement pump for waterfall](http://www.newegg.com/Product/Product.aspx?Item=9SIA1GK2CA3065) ($7.99 newegg)
 - [polycarbonate top 19-1/4" x 9-7/16" (1/4" thick)](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/polycarbonate_sheets/516) ($13.36 TAP plastics)
 
@@ -29,3 +28,7 @@ Orchid paludarium and climate control design
 - arduino stuff
 - [120mm PWM fan](http://www.newegg.com/Product/Product.aspx?Item=N82E16835494006) ($8.99 newegg)
 - [temp & humidity sensor](http://www.newegg.com/Product/Product.aspx?Item=9SIABR04N71130) ($3.24 newegg)
+
+### Tools
+- [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
+- [dremel]()
