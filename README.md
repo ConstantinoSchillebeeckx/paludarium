@@ -28,6 +28,17 @@ Orchid paludarium and climate control design
 - arduino stuff
 - [120mm PWM fan](http://www.newegg.com/Product/Product.aspx?Item=N82E16835494006) ($8.99 newegg)
 - [temp & humidity sensor](http://www.newegg.com/Product/Product.aspx?Item=9SIABR04N71130) ($3.24 newegg)
+- [FeatherWing OLED]() ($14.95 Adafruit)
+- [ULN2803 8 Channel Darlington Driver]() ($1.95 Adafruit)
+- [2 x 12-Channel 16-bit PWM LED Driver (TLC59711)]() ($15.00 Adafruit)
+- [Feather HUZZAH ESP8266]() ($15.95 Adafruit)
+- [Short Feather Headers]() ($1.50 Adafruit)
+- [UBEC DC/DC Step-Down (Buck) Converter]() ($9.95 Adafruit)
+- [2 x 6-conductor 0.1" socket-socket]() ($3.50 Adafruit)
+- [Break-away 0.1" 36-pin strip right-angle male header (10 pack)]() ($5.95 Adafruit)
+- [4 x Servo Extension Cable]() ($7.80 Adafruit)
+- [VERTER 5V USB Buck-Boost]() [$9.95 Adafruit)
+- [Adafruit Perma-Proto Half-sized Breadboard PCB]() ($4.50 Adafruit)
 
 ### Tools
 - [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
