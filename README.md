@@ -4,7 +4,7 @@ Orchid paludarium and climate control design
 
 ## BOM
 
-### Tank
+### Tank ($XX total)
 - 10g aquarium ($5 craigslist)
 - 4' x 2' light ceiling panel - [egg crate](https://www.google.com/shopping/product/3379815341616733842?lsf=seller:8740,store:5944499324702331793,lsfqd:0&prds=oid:14257488563428501297&q=lamp+shade&hl=en&ei=eTnxV-OXMIKFmwGgpYAQ&lsft=cm_mmc:Shopping-_-LIAs-_-D23-_-202025149&lsft=gclid:CNbavtzIvM8CFQERaQodmhcDuA) ($15 home depot)
 - electric waterfall ($1 garage sale)
@@ -20,11 +20,11 @@ Orchid paludarium and climate control design
 - [polycarbonate top 19-1/4" x 9-7/16" (1/4" thick)](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/polycarbonate_sheets/516) ($13.36 TAP plastics)
 - Manzanita Driftwood
 
-### Flora
+### Flora ($XX total)
 - plants
 - moss
 
-### Controller
+### Controller ($XX total)
 - [2 x 50cm LED bars](http://www.ebay.com/itm/12V-36-SMD-5630-50CM-0-5M-Waterproof-LED-Hard-Strip-Bar-Light-Tube-w-Cover-Cap/232100208769?_trksid=p2047675.c100623.m-1&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D38530%26meid%3Db9e91e8576b8490f9004b4baea860929%26pid%3D100623%26rk%3D1%26rkt%3D6%26sd%3D231968301261) ($4.50 ebay)
 - arduino stuff
 - [120mm PWM fan](http://www.newegg.com/Product/Product.aspx?Item=N82E16835494006) ($8.99 newegg)
