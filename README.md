@@ -44,3 +44,11 @@ Orchid paludarium and climate control design
 ### Tools
 - [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
 - [dremel](https://www.dremel.com/en_US/products/-/show-product/tools/4000-high-performance-rotary-tool)
+
+
+## Guides
+- http://www.dendroboard.com/forum/members-frogs-vivariums/76255-how-build-viv-motydesign.html
+- http://www.dendroboard.com/forum/members-frogs-vivariums/22002-60-gallon-construction.html
+- http://www.dendroboard.com/forum/parts-construction/83431-island-paludarium-360-z-185-gal-40-x-40-x-28-a.html
+ -http://www.dendroboard.com/forum/parts-construction/157898-popular-helpful-parts-constructions-threads.html
+- http://www.dendroboard.com/forum/parts-construction/72637-29-gallon-paludarium-build-post-i-go-details-very-pic-heavy.html#/topics/72637?page=12&_k=y1bdao
