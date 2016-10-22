@@ -19,6 +19,7 @@ Orchid paludarium and climate control design
 - [replacement pump for waterfall](http://www.newegg.com/Product/Product.aspx?Item=9SIA1GK2CA3065) ($7.99 newegg)
 - [polycarbonate top 19-1/4" x 9-7/16" (1/4" thick)](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/polycarbonate_sheets/516) ($13.36 TAP plastics)
 - Manzanita Driftwood
+- bag of small zipties
 
 ### Flora ($XX total)
 - plants
@@ -40,6 +41,7 @@ Orchid paludarium and climate control design
 - [4 x Servo Extension Cable](https://www.adafruit.com/products/972) ($7.80 Adafruit)
 - [VERTER 5V USB Buck-Boost](https://www.adafruit.com/products/2190) [$9.95 Adafruit)
 - [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/products/1609) ($4.50 Adafruit)
+- spools of wire (1 red / 1 black)
 
 ### Tools
 - [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
