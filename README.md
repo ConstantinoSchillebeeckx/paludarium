@@ -11,9 +11,7 @@ Orchid paludarium and climate control design
 - [12oz great stuff foam](https://www.amazon.com/gp/product/B001AQ0FVC/ref=od_aui_detailpages00?ie=UTF8&psc=1) ($14.13 Amazon)
 - [1lb. spahnum moss](https://www.amazon.com/gp/product/B00I6AJKVG/ref=od_aui_detailpages00?ie=UTF8&psc=1) ($7.99 Amazon)
 - [2 x ABG mix](http://www.joshsfrogs.com/abg-mix-4-quart-1-gallon.html) ($13.98 Josh's frogs)
-- [100 piece bio balls](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=281070237958) ($6.87 ebay)
 - [5lbs activated carbon](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=181084875793) ($9.99 ebay)
-- [50cm x 50cm bio sponge](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=131937741285) ($3.85 ebay)
 - [2lbs LECA clay](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=121695905138) ($9.45)
 - [6" Cholla cactus wood](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=272346928499) ($4.00)
 - [replacement pump for waterfall](http://www.newegg.com/Product/Product.aspx?Item=9SIA1GK2CA3065) ($7.99 newegg)
@@ -42,6 +40,8 @@ Orchid paludarium and climate control design
 - [VERTER 5V USB Buck-Boost](https://www.adafruit.com/products/2190) [$9.95 Adafruit)
 - [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/products/1609) ($4.50 Adafruit)
 - spools of wire (1 red / 1 black)
+- Schottky diode
+- capacitor
 
 ### Tools
 - [dremel diamond wheel point](https://www.dremel.com/en_US/products/-/show-product/accessories/7144-diamond-wheel-point) ($8.46 home depot)
