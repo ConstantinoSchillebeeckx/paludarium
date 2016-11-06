@@ -1,6 +1,7 @@
 # Paludarium build
 Orchid paludarium and climate control design
 
+**NOTE:** repo currently still under construction...
 
 ## BOM
 
