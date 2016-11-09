@@ -1,9 +1,12 @@
-byte fanPin = 13;
+byte fanOnOff = 13;
+byte fanPWM = 12;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(fanPin, OUTPUT);
-  analogWrite(fanPin, 0);
+  pinMode(fanOnOff, OUTPUT);
+  analogWrite(fanOnOff, 0);
+  pinMode(fanPWM, OUTPUT);
+  analogWrite(fanPWM, 0);
 }
 
 void loop() {
@@ -11,12 +14,11 @@ void loop() {
   if (Serial.available())
   {
     int speed = Serial.parseInt();
-    if (speed >= 0 && speed <= 1023)
-    {
-      analogWrite(fanPin, 1023);
-      delay(15);
-      analogWrite(fanPin, speed);
-      Serial.print("PWM set to ");
+    if (speed >= 0 && speed <= 1023) {
+      analogWrite(fanPWM, speed);
+      analogWrite(fanOnOff, speed == 0 ? 0 : 1023);
+      
+      Serial.print("Fan set to ");
       Serial.println(speed);
     }
   }
