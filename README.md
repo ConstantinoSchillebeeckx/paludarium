@@ -1,7 +1,7 @@
 # Paludarium build
 Orchid paludarium and climate control design
 
-(Builde notes)[https://photoscs.wordpress.com/2016/10/26/diy-terrarium/]
+[Build notes](https://photoscs.wordpress.com/2016/10/26/diy-terrarium/)
 
 **NOTE:** repo currently still under construction...
 
