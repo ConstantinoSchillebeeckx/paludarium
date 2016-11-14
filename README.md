@@ -19,8 +19,9 @@ Orchid paludarium and climate control design
 - [6" Cholla cactus wood](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=272346928499) ($4.00)
 - [replacement pump for waterfall](http://www.newegg.com/Product/Product.aspx?Item=9SIA1GK2CA3065) ($7.99 newegg)
 - [polycarbonate top 19-1/4" x 9-7/16" (1/4" thick)](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/polycarbonate_sheets/516) ($13.36 TAP plastics)
-- Manzanita Driftwood
+- virgin cork bark
 - bag of small zipties
+- [PTC heater](http://www.ebay.com/itm/AC110V-100W-Electric-Ceramic-Thermostatic-Insulation-PTC-Heating-Element-Heater-/311682973018?hash=item4891c0bd5a:g:rc0AAOSwn7JYFGnt)
 
 ### Flora ($XX total)
 - plants
