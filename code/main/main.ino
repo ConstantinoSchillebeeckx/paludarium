@@ -8,7 +8,8 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_TSL2561_U.h>
-#include "Adafruit_HDC1000.h"
+#include "Adafruit_Si7021.h"
+
 
 
 #define data   13 // MO(SI)
@@ -28,8 +29,10 @@
 #define AIO_USERNAME    "constantinoschillebeeckx"
 #define AIO_KEY         "f40d869993b5cc6315c96943bf7d005e4246fc86"
 
-Adafruit_TLC59711 tlc = Adafruit_TLC59711(numStrip, clock, data);
-Adafruit_SSD1306 display = Adafruit_SSD1306();
+Adafruit_TLC59711 led = Adafruit_TLC59711(numStrip, clock, data); // LED driver
+Adafruit_SSD1306 display = Adafruit_SSD1306(); // OLED display
+//Adafruit_TSL2561_Unified lux = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 12345); // light sensor
+Adafruit_Si7021 sensor = Adafruit_Si7021(); // temp & humidity
 
 // Calculate based on max input size expected for one command
 #define INPUT_SIZE 7  // max is L:65535 -> 7
@@ -51,14 +54,12 @@ Adafruit_MQTT_Publish tempMQTT = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/fee
 Adafruit_MQTT_Publish humidMQTT = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/humidity");
 
 
-Adafruit_HDC1000 hdc = Adafruit_HDC1000();
-
 #if defined(ARDUINO_ARCH_SAMD)
 // for Zero, output on USB Serial console, remove line below if using programming port to program the Zero!
    #define Serial SerialUSB
 #endif
 
-Adafruit_TSL2561_Unified tsl = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 12345);
+
 
 unsigned long previousMillis = 0;   
 const long interval = 15 * 60 * 1000; // 15 min
@@ -107,6 +108,10 @@ void setup() {
   Serial.println(); Serial.println();
   Serial.print("Connecting to ");
   Serial.println(WLAN_SSID);
+  display.println("Connecting to: ");
+  display.println(WLAN_SSID);
+  yield();
+  display.display();
 
   WiFi.begin(WLAN_SSID, WLAN_PASS);
   while (WiFi.status() != WL_CONNECTED) {
@@ -118,15 +123,8 @@ void setup() {
   Serial.println("WiFi connected");
   Serial.println("IP address: "); Serial.println(WiFi.localIP());
     
-  /* Initialise the sensor */
-  if(!tsl.begin())
-  {
-    /* There was a problem detecting the ADXL345 ... check your connections */
-    Serial.print("Ooops, no TSL2561 detected ... Check your wiring or I2C ADDR!");
-    while(1);
-  }
 
-  if (!hdc.begin()) {
+  if (!sensor.begin()) {
     Serial.println("Couldn't find sensor!");
     while (1);
   }
@@ -134,42 +132,35 @@ void setup() {
   /* Setup the sensor gain and integration time */
 //  configureSensor();
   
-  tlc.begin();
-  tlc.write();
+  led.begin();
+  led.write();
 
   // get initial reading
-  temp = hdc.readTemperature() * 9.0/5 + 32;
-  humid = hdc.readHumidity();
+  temp = sensor.readTemperature() * 9.0/5 + 32;
+  humid = sensor.readHumidity();
 }
 
 void loop() {
 
-  /* Get a new sensor event */ 
-  sensors_event_t event;
-  tsl.getEvent(&event);
-
+  delay(1000);
   unsigned long currentMillis = millis();
 
   // Ensure the connection to the MQTT server is alive (this will make the first
-  // connection and automatically reconnect when disconnected).  See the MQTT_connect
-  // function definition further below.
+  // connection and automatically reconnect when disconnected).  
   MQTT_connect();
+
+  temp = sensor.readTemperature() * 9.0/5 + 32;
+  humid = sensor.readHumidity();
 
   if (abs(currentMillis - previousMillis) >= interval) {
     // save the last time you blinked the LED
     previousMillis = currentMillis;
-  
-  //  lum = event.light;
-    temp = hdc.readTemperature() * 9.0/5 + 32;
-    humid = hdc.readHumidity();
-  
-  //  Serial.print(lum);
-  //  Serial.print(" ");
+    
     Serial.print(temp);
     Serial.print(" ");
     Serial.println(humid);
+    
     tempMQTT.publish(temp);
-  //  lumMQTT.publish(lum);
     humidMQTT.publish(humid);
 
   }
@@ -178,8 +169,8 @@ void loop() {
   // keep the connection alive
   mqtt.ping();
 
-  delay(100);
 
+  // update display if temp/humidity has changed
   if (prevHumid != humid || prevTemp != temp) {
     display.clearDisplay();
     display.display();
@@ -197,60 +188,10 @@ void loop() {
 
 
 
-
-
   // PARSE COMMANDS ON SERIAL
+  parseSerialComm();
 
-  // Get next command from Serial (add 1 for final 0)
-  char input[INPUT_SIZE + 1];
-  byte size = Serial.readBytes(input, INPUT_SIZE);
   
-  // Add the final 0 to end the C string
-  input[size] = 0;
-
-  // Read each command pair, split on ':'
-  // e.g. L:65535
-  // L -> LED
-  // P -> pump
-  // F -> fan
-  char* tok = strtok(input, ":");
-  while (tok != NULL) {
-
-    if (strchr(tok, 'L')) { // LED COMMANDS
-      Serial.print("LED command: ");
-      tok = strtok(NULL, ":"); // get next token
-      
-      long val = atoi(tok);
-      Serial.println(val);
-      setLED(val);
-    } else if (strchr(tok, 'P')) { // PUMP COMMANDS
-      Serial.print("Pump command: ");
-      tok = strtok(NULL, ":"); // get next token
-      
-      long val = atoi(tok);
- 
-      if (val >= 0 && val <= 1023) {
-        analogWrite(pumpPin, 1023);
-        delay(100);
-        analogWrite(pumpPin, val);
-        Serial.println(val);
-      }
-    } else if (strchr(tok, 'F')) { // FAN COMMANDS
-      Serial.print("Fan command: ");
-      tok = strtok(NULL, ":"); // get next token
-
-      long val = atoi(tok);
- 
-      if (val >= 0 && val <= 1023) {
-        analogWrite(fanPWM, val);
-        analogWrite(fanOnOff, val == 0 ? 0 : 1023);
-        Serial.println(val);
-      }
-    }
-    
-    tok = strtok(NULL, ":"); // get next token
-  }
-
 }
 
 
