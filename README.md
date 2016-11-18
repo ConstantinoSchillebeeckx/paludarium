@@ -24,6 +24,8 @@ Orchid paludarium and climate control design
 - [PTC heater](http://www.ebay.com/itm/AC110V-100W-Electric-Ceramic-Thermostatic-Insulation-PTC-Heating-Element-Heater-/311682973018?hash=item4891c0bd5a:g:rc0AAOSwn7JYFGnt) ($10.70 ebay)
 
 ### Flora ($XX total)
+- [Davallia fejeensis](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Davfej)
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Davfej-2T.jpg?1461775256)
 - plants
 - moss
 
