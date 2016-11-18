@@ -28,6 +28,14 @@ Orchid paludarium and climate control design
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Davfej-2T.jpg?1461775256)
 - [Ficus pumila](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpum)
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpum-2T.jpg?1461775256)
+- [Ficus pumila var. minima](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpumminima)
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpumminima-2T.jpg?1461775256)
+- [Ficus sp. 'Panama'](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpan)
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpan-2T.jpg?1461775256)
+- [Marcgravia rectiflora](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=marcrect)
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/marcrect-2T.jpg?1461775256)
+- [Pyrrosia piloselloides](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Pyrpil)
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Pyrpil-2T.jpg?1461775256)
 
 
 ### Controller ($XX total)
