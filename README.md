@@ -25,20 +25,35 @@ Orchid paludarium and climate control design
 
 ### Flora ($XX total)
 - [Davallia fejeensis](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Davfej)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Davfej-2T.jpg?1461775256)
+
 - [Ficus pumila](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpum)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpum-2T.jpg?1461775256)
+
 - [Ficus pumila var. minima](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpumminima)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpumminima-2T.jpg?1461775256)
+
 - [Ficus sp. 'Panama'](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpan)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpan-2T.jpg?1461775256)
+
 - [Marcgravia rectiflora](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=marcrect)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/marcrect-2T.jpg?1461775256)
+
 - [Pyrrosia piloselloides](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Pyrpil)
+
 ![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Pyrpil-2T.jpg?1461775256)
+
 - [Selaginella kraussiana 'Aurea'](https://www.google.com/search?q=Selaginella+kraussiana)
+
 ![img](http://www.logees.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/6/f6027-2-large.jpg)
+
 - [A. capillus veneris](https://www.google.com/search?q=A.+capillus+veneris)
+
 ![img](http://nathistoc.bio.uci.edu/plants/Ferns/Adiantum%20capillus-veneris/Adiantum%20capillus-veneris2b.jpg)
 
 
