@@ -24,8 +24,38 @@ Orchid paludarium and climate control design
 - [PTC heater](http://www.ebay.com/itm/AC110V-100W-Electric-Ceramic-Thermostatic-Insulation-PTC-Heating-Element-Heater-/311682973018?hash=item4891c0bd5a:g:rc0AAOSwn7JYFGnt) ($10.70 ebay)
 
 ### Flora ($XX total)
-- plants
-- moss
+- [Davallia fejeensis](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Davfej)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Davfej-2T.jpg?1461775256)
+
+- [Ficus pumila](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpum)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpum-2T.jpg?1461775256)
+
+- [Ficus pumila var. minima](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpumminima)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpumminima-2T.jpg?1461775256)
+
+- [Ficus sp. 'Panama'](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Ficpan)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Ficpan-2T.jpg?1461775256)
+
+- [Marcgravia rectiflora](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=marcrect)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/marcrect-2T.jpg?1461775256)
+
+- [Pyrrosia piloselloides](https://www.glassboxtropicals.com/ProductDetails.asp?ProductCode=Pyrpil)
+
+![img](https://cdn3.volusion.com/vvmrs.uvnbd/v/vspfiles/photos/Pyrpil-2T.jpg?1461775256)
+
+- [Selaginella kraussiana 'Aurea'](https://www.google.com/search?q=Selaginella+kraussiana)
+
+![img](http://www.logees.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/6/f6027-2-large.jpg)
+
+- [A. capillus veneris](https://www.google.com/search?q=A.+capillus+veneris)
+
+![img](http://nathistoc.bio.uci.edu/plants/Ferns/Adiantum%20capillus-veneris/Adiantum%20capillus-veneris2b.jpg)
+
 
 ### Controller ($XX total)
 - [2 x 50cm LED bars](http://www.ebay.com/itm/12V-36-SMD-5630-50CM-0-5M-Waterproof-LED-Hard-Strip-Bar-Light-Tube-w-Cover-Cap/232100208769?_trksid=p2047675.c100623.m-1&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D38530%26meid%3Db9e91e8576b8490f9004b4baea860929%26pid%3D100623%26rk%3D1%26rkt%3D6%26sd%3D231968301261) ($4.50 ebay)
