@@ -1,4 +1,4 @@
-**NOTE:** repo currently still under construction... :warning:
+:warning: this repo is no longer being worked on, the project has shifted gears to the [56gal version](https://github.com/ConstantinoSchillebeeckx/paludarium-56gal); keeping this here for historical reasons. :warning:
 
 ---
 
